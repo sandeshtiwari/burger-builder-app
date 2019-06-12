@@ -7,7 +7,10 @@ const sideDrawer = (props) => {
     // ...
     return (
         <div>
-            
+            <Logo />
+            <nav>
+                <NavigationItems />
+            </nav>
         </div>
     );
 }
